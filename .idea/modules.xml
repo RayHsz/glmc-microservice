@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/glmc.iml" filepath="$PROJECT_DIR$/glmc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmc-bxd/glmc-bxd.iml" filepath="$PROJECT_DIR$/glmc-bxd/glmc-bxd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmc-eureka-server/glmc-eureka-server.iml" filepath="$PROJECT_DIR$/glmc-eureka-server/glmc-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmc-hcgl/glmc-hcgl.iml" filepath="$PROJECT_DIR$/glmc-hcgl/glmc-hcgl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmc-jdr/glmc-jdr.iml" filepath="$PROJECT_DIR$/glmc-jdr/glmc-jdr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmc-qygl/glmc-qygl.iml" filepath="$PROJECT_DIR$/glmc-qygl/glmc-qygl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glmc-shy/glmc-shy.iml" filepath="$PROJECT_DIR$/glmc-shy/glmc-shy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" filepath="$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-parent-transaction.iml" filepath="$PROJECT_DIR$/microservice-parent-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-item/microservice-provider-item.iml" filepath="$PROJECT_DIR$/microservice-provider-item/microservice-provider-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-order/microservice-provider-order.iml" filepath="$PROJECT_DIR$/microservice-provider-order/microservice-provider-order.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="glmc-shy" />
+        <module name="glmc-qygl" />
+        <module name="microservice-provider-item" />
+        <module name="microservice-eureka-server" />
+        <module name="glmc-jdr" />
+        <module name="microservice-provider-order" />
+        <module name="glmc-hcgl" />
+        <module name="glmc-eureka-server" />
+        <module name="glmc-bxd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="glmc" target="1.8" />
+      <module name="glmc-bxd" target="1.8" />
+      <module name="glmc-eureka-server" target="1.8" />
+      <module name="glmc-hcgl" target="1.8" />
+      <module name="glmc-jdr" target="1.7" />
+      <module name="glmc-qygl" target="1.8" />
+      <module name="glmc-shy" target="1.7" />
+      <module name="microservice-eureka-server" target="1.8" />
+      <module name="microservice-parent-transaction" target="1.8" />
+      <module name="microservice-provider-item" target="1.8" />
+      <module name="microservice-provider-order" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="glmc-bxd" options="-parameters" />
+      <module name="glmc-eureka-server" options="-parameters" />
+      <module name="glmc-hcgl" options="-parameters" />
+      <module name="glmc-jdr" options="-parameters" />
+      <module name="glmc-qygl" options="-parameters" />
+      <module name="glmc-shy" options="-parameters" />
+      <module name="microservice-eureka-server" options="-parameters" />
+      <module name="microservice-provider-item" options="-parameters" />
+      <module name="microservice-provider-order" options="-parameters" />
+    </option>
+  </component>
+</project>

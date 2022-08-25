@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gljt.provideritem.mapper.ItemMapper">
+    <resultMap id="BaseResultMap" type="com.gljt.provideritem.bean.Item">
+
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="title" jdbcType="VARCHAR" property="title"/>
+        <result column="price" jdbcType="DECIMAL" property="price"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="sales" jdbcType="INTEGER" property="sales"/>
+        <result column="img_url" jdbcType="VARCHAR" property="imgUrl"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, title, price, description, sales, img_url
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from item
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+    <update id="decreaseStock">
+        update item_stock
+        set stock = stock - #{amount}
+        where item_id = #{itemId}
+          and stock >= #{amount}
+    </update>
+    <update id="increaseSales">
+        update item
+        set sales = sales + #{amount}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>

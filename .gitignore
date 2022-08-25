@@ -1,0 +1,7 @@
+# Project exclude paths
+/glmc-bxd/target/
+/glmc-eureka-server/target/
+/glmc-hcgl/target/
+/glmc-jdr/target/
+/glmc-qygl/target/
+/glmc-shy/target/
